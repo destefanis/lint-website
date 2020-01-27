@@ -1,0 +1,237 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: underline;
+    transition: all 150ms ease;
+  }
+  
+  a:visted {
+    color: #002245;
+  }
+  
+  a:hover,
+  a:visited:hover {
+    color: #FF896F;
+  }
+  
+  .content {
+    background: #F0F0F0;
+  }
+  
+  .wrapper {
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #F0F0F0;
+  }
+  
+  .nav-wrapper {
+    padding: 32px 32px 16px;
+    font-size: 18px;
+    color: #002245;
+    display: flex;
+    flex-flow: row;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .wrapper {
+      position: fixed;
+      background: none;
+    }
+  
+    .nav-wrapper {
+      padding: 40px 60px;
+      font-size: 18px;
+      color: #002245;
+      display: flex;
+      flex-flow: row;
+    }
+  }
+  
+  .logo {
+    align-self: flex-start;
+    font-weight: bold;
+  }
+  
+  .logo a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #002245;
+  }
+  
+  .nav {
+    align-self: flex-end;
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    padding-left: 40px;
+    color: #002245;
+    text-decoration: none;
+  }
+  
+  .nav-item:visited {
+    color: #002245;
+  }
+  
+  .hero {
+    background: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .hero {
+      height: 760px;
+    }
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-content: flex-start;
+    max-width: 1320px;
+    width: 100%;
+    flex-flow: row wrap;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .content-wrapper {
+      flex-flow: row;
+    }
+  }
+  
+  .hero-content {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 60px 32px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .hero-content {
+      width: 439px;
+      padding: 0 0 0 60px;
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (min-width: 1300px) {
+    .hero-content {
+      padding: 0;
+    }
+  }
+  
+  .title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #002245;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .title {
+      font-size: 22px;
+      line-height: 140%;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .title {
+      font-size: 28px;
+      line-height: 140%;
+    }
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 16px 50px;
+    font-size: 16px;
+    line-height: 140%;
+    color: #002245;
+    border-radius: 6px;
+    border: 1px solid #002245;
+    text-decoration: none;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .button {
+      margin-top: 40px;
+    }
+  }
+  
+  .button:visited {
+    color: #002245;
+  }
+  
+  .hero-images-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .hero-images {
+    position: relative;
+    display: none;
+  }
+  
+  .hero-images__linter {
+    position: relative;
+    width: 272px;
+    z-index: 10;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-images__design {
+    position: relative;
+    width: 544px;
+    z-index: 5;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .hero-images {
+      display: block;
+    }
+  
+    .hero-images__linter {
+      position: absolute;
+      transform: translate(60px, 60px);
+    }
+  
+    .hero-images__design {
+      transform: translateX(200px);
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+  
+    .hero-images__linter {
+      position: absolute;
+      transform: translate(0px, 60px);
+    }
+  }
+  
+  @media only screen and (min-width: 1300px) {
+    .hero-images__linter {
+      position: relative;
+      transform: translateX(30px);
+    }
+  
+    .hero-images__design {
+      transform: translateX(0);
+    }
+  }
