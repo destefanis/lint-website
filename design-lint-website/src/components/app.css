@@ -101,6 +101,10 @@ body {
       height: 760px;
     }
   }
+
+  .hero .content-wrapper {
+    overflow: hidden;
+  }
   
   .content-wrapper {
     display: flex;
