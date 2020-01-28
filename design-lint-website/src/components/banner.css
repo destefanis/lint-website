@@ -82,3 +82,8 @@
   font-weight: 400;
   color: #002245;
 }
+
+.credit a {
+  color: #002245;
+  text-decoration: none;
+}
