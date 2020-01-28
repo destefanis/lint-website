@@ -49,7 +49,7 @@ const Layout = ({ slug, children }) => {
               </g>
             </svg>
           </div>
-          <div className="credit"><a href="http://danieldoes.design">Made by Daniel Destefanis</a></div>
+          <div className="credit"><a href="https://danieldoes.design">Made by Daniel Destefanis</a></div>
         </footer>
       </div>
     </>
