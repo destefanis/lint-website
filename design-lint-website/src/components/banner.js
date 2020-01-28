@@ -8,7 +8,7 @@ function Banner() {
     <div className="banner">
       <div className="banner-wrapper">
         <h2 className="banner-title">
-        Design Lint checks for missing text, fill, stroke, and effects styles. It also catches incorrect border radius.
+        Design Lint checks for missing text, fill, stroke, and effects styles. It also catches incorrect border radius values.
         </h2>
         <div class="video-wrapper">
           <ReactPlayer className="video" url='https://designlint.s3-us-west-2.amazonaws.com/design-lint-website-vid+(1).mp4' loop playing volume={0} muted width='100%' height='100%'/>

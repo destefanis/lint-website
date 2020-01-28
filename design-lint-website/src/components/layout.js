@@ -14,12 +14,13 @@ import "./layout.css"
 import "./app.css"
 import "./fonts/inter.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ slug, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
           title
+          siteUrl
         }
       }
     }
@@ -48,6 +49,7 @@ const Layout = ({ children }) => {
               </g>
             </svg>
           </div>
+          <div className="credit">Made by Daniel Destefanis</div>
         </footer>
       </div>
     </>

@@ -3,6 +3,7 @@ module.exports = {
     title: `Design Lint`,
     description: `A free and open source design linting plugin for Figma. Prevent design debt, reach full consistency, and make sure your work is ready for development.`,
     author: `@destefanis`,
+    siteUrl: "https://lintyour.design",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +12,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-157125564-1",
       },
     },
     `gatsby-transformer-sharp`,

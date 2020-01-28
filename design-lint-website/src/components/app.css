@@ -1,3 +1,9 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -165,6 +171,10 @@ body {
     border-radius: 6px;
     border: 1px solid #002245;
     text-decoration: none;
+  }
+
+  .button:hover {
+    border-color: #FF896F;
   }
   
   @media only screen and (min-width: 800px) {

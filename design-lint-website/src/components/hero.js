@@ -10,8 +10,8 @@ const Hero = () => (
           plugin for Figma built to help you find
           and fix errors in your designs.
         </h1>
-        <a href="#" className="button">
-          Install Plugin
+        <a href="https://www.figma.com/c/plugin/801195587640428208" className="button">
+          View in Figma
         </a>
       </div>
       <div className="hero-images-wrapper">
