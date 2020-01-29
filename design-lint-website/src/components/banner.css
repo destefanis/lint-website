@@ -23,7 +23,7 @@
 
 @media only screen and (min-width: 800px) {
   .banner-wrapper {
-    padding: 120px;
+    padding: 120px 120px 80px;
   }
 }
 
@@ -63,7 +63,8 @@
 }
 
 .footer {
-  background: #F0F0F0;
+  background: #fff;
+  text-align: center;
 }
 
 .linter-svg {
@@ -75,6 +76,7 @@
 }
 
 .credit {
+  margin-top: 20px;
   margin-bottom: 40px;
   background: #fff;
   text-align: center;

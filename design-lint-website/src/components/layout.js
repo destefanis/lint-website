@@ -49,6 +49,7 @@ const Layout = ({ slug, children }) => {
               </g>
             </svg>
           </div>
+          <a href="https://www.producthunt.com/posts/design-lint?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-design-lint" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=182486&theme=light" alt="Design Lint - A design linting plugin for Figma. | Product Hunt Embed" style={{width: "250px", height: "54px"}} /></a>
           <div className="credit"><a href="https://danieldoes.design">Made by Daniel Destefanis</a></div>
         </footer>
       </div>
